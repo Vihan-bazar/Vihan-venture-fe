@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ShoppingBag, Search, Menu, Sparkles, X, Package, Layers } from "lucide-react";
