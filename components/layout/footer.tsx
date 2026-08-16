@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="lg:col-span-4">
             <Link href="/" className="flex items-center gap-2 text-2xl font-extrabold tracking-wider text-[#111] mb-6 w-fit group">
-              Vihan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Venture</span>
+              Vihan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Bazar</span>
               <Sparkles size={18} className="text-blue-500 opacity-80 group-hover:opacity-100 transition-opacity" />
             </Link>
             <p className="text-[#111]/60 font-medium leading-relaxed max-w-sm mb-8 text-sm">
