@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-[#111]/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#111]/40 text-xs font-medium tracking-wide">
-            &copy; 2026 Vihan Venture. All rights reserved.
+            &copy; 2026 Vihan Venture Pvt. Ltd. All rights reserved.
           </p>
           <p className="text-[#111]/40 text-xs font-medium tracking-wide flex items-center gap-1">
             Designed by 
