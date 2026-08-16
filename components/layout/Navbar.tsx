@@ -38,7 +38,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-xl font-extrabold tracking-wider text-gray-900 group shrink-0">
-          Vihan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Venture</span>
+          Vihan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Bazar</span>
           <Sparkles size={16} className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity" />
         </Link>
 
