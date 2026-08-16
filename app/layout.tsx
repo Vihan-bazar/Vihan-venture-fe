@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vihan Venture",
-  description: "Vihan Venture - Premium Fashion for the Modern Individual",
+  title: "Vihan Bazar",
+  description: "Vihan Bazar - Premium Fashion for the Modern Individual",
 };
 
 export default function RootLayout({
