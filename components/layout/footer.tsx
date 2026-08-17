@@ -60,23 +60,79 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Support Section */}
           <div className="lg:col-span-2">
             <h4 className="text-[#111] font-bold tracking-widest uppercase text-[10px] mb-6">Support</h4>
             <ul className="space-y-4">
               <li><Link href="/track" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Track Order</Link></li>
               <li><Link href="/contact" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Contact Us</Link></li>
-              <li><Link href="#" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Shipping & Returns</Link></li>
-              <li><Link href="#" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Size Guide</Link></li>
+              <li>
+                <a 
+                  href="/docs/shipping-and-returns.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  Shipping & Returns
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/docs/size-guide.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  Size Guide
+                </a>
+              </li>
             </ul>
           </div>
 
+          {/* Company Section */}
           <div className="lg:col-span-2">
             <h4 className="text-[#111] font-bold tracking-widest uppercase text-[10px] mb-6">Company</h4>
             <ul className="space-y-4">
-              <li><Link href="#" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">About Us</Link></li>
-              <li><a href="https://services.vihanventure.com" target="_blank" rel="noopener noreferrer" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Our Services</a></li>
-              <li><Link href="#" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Privacy Policy</Link></li>
-              <li><Link href="#" className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm">Terms of Service</Link></li>
+              <li>
+                <a 
+                  href="/docs/about-us.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://services.vihanventure.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  Our Services
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/docs/privacy-policy.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/docs/terms-of-service.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#111]/60 hover:text-blue-600 transition-colors font-medium text-sm"
+                >
+                  Terms of Service
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -90,6 +146,8 @@ export default function Footer() {
             Designed by 
             <a 
               href="https://skds.in/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#111]/80 font-bold hover:text-blue-600 transition-colors ml-1"
             >
               Shri Kishori Design Studio
